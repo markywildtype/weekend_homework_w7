@@ -1,7 +1,6 @@
 package Instruments;
 
 import Interfaces.IColour;
-import Interfaces.ISellable;
 
 public class Guitar extends Instrument implements IColour{
 

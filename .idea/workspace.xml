@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35fcc5d6-9a6c-4922-82ae-70a640491db9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/IPlayable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/ISellable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Keys.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Instruments/KeysType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/InstrumentTests/KeysTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/GuitarType.java" afterPath="$PROJECT_DIR$/src/main/java/Instruments/GuitarType.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InstrumentTests/GuitarTest.java" afterPath="$PROJECT_DIR$/src/test/java/InstrumentTests/GuitarTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/InstrumentType.java" afterPath="$PROJECT_DIR$/src/main/java/Instruments/InstrumentType.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GuitarTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GuitarTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/InstrumentTests/GuitarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="135">
               <caret line="51" column="41" lean-forward="false" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,18 +59,17 @@
       <file leaf-file-name="Guitar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Guitar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="30">
+              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,14 +95,55 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Keys.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Keys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeysTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/InstrumentTests/KeysTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="56" lean-forward="false" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="Enum" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -406,14 +445,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Instruments.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Instruments/InstrumentType.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interfaces/IColour.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interfaces/IPlayable.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interfaces/ISellable.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/GuitarType.java" />
         <option value="$PROJECT_DIR$/src/test/java/InstrumentTests/GuitarTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Instruments/KeysType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Instruments/InstrumentType.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Instruments/Keys.java" />
+        <option value="$PROJECT_DIR$/src/test/java/InstrumentTests/KeysTest.java" />
       </list>
     </option>
   </component>
@@ -530,7 +572,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GuitarTest.hasNumberOfStrings">
+  <component name="RunManager" selected="JUnit.InstrumentTests in RaysMusicExchange_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -551,7 +593,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InstrumentTests in RaysMusicExchange_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="InstrumentTests.*" />
@@ -562,9 +604,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="InstrumentTests" />
-      <option name="MAIN_CLASS_NAME" value="InstrumentTests.GuitarTest" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -576,7 +618,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GuitarTest.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeysTest.hasBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="InstrumentTests.*" />
@@ -587,8 +629,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="InstrumentTests" />
-      <option name="MAIN_CLASS_NAME" value="InstrumentTests.GuitarTest" />
-      <option name="METHOD_NAME" value="canPlay" />
+      <option name="MAIN_CLASS_NAME" value="InstrumentTests.KeysTest" />
+      <option name="METHOD_NAME" value="hasBrand" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -601,7 +643,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GuitarTest.hasGuitarType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeysTest.hasBuyPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="InstrumentTests.*" />
@@ -612,8 +654,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="InstrumentTests" />
-      <option name="MAIN_CLASS_NAME" value="InstrumentTests.GuitarTest" />
-      <option name="METHOD_NAME" value="hasGuitarType" />
+      <option name="MAIN_CLASS_NAME" value="InstrumentTests.KeysTest" />
+      <option name="METHOD_NAME" value="hasBuyPrice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -626,7 +668,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GuitarTest.hasMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeysTest.hasMarkUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="InstrumentTests.*" />
@@ -637,8 +679,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="InstrumentTests" />
-      <option name="MAIN_CLASS_NAME" value="InstrumentTests.GuitarTest" />
-      <option name="METHOD_NAME" value="hasMarkup" />
+      <option name="MAIN_CLASS_NAME" value="InstrumentTests.KeysTest" />
+      <option name="METHOD_NAME" value="hasMarkUp" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -651,7 +693,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GuitarTest.hasNumberOfStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeysTest.hasSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="InstrumentTests.*" />
@@ -662,8 +704,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="InstrumentTests" />
-      <option name="MAIN_CLASS_NAME" value="InstrumentTests.GuitarTest" />
-      <option name="METHOD_NAME" value="hasNumberOfStrings" />
+      <option name="MAIN_CLASS_NAME" value="InstrumentTests.KeysTest" />
+      <option name="METHOD_NAME" value="hasSellPrice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -737,19 +779,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GuitarTest.hasGuitarType" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GuitarTest.canPlay" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GuitarTest.hasMarkup" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GuitarTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GuitarTest.hasNumberOfStrings" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.KeysTest.hasBrand" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.KeysTest.hasBuyPrice" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.KeysTest.hasSellPrice" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.KeysTest.hasMarkUp" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.InstrumentTests in RaysMusicExchange_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GuitarTest.hasNumberOfStrings" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GuitarTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GuitarTest.hasMarkup" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GuitarTest.canPlay" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GuitarTest.hasGuitarType" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.InstrumentTests in RaysMusicExchange_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.KeysTest.hasMarkUp" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.KeysTest.hasSellPrice" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.KeysTest.hasBuyPrice" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.KeysTest.hasBrand" />
       </list>
     </recent_temporary>
   </component>
@@ -781,30 +823,19 @@
       <option name="project" value="LOCAL" />
       <updated>1516362966322</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added guitar-specific properties to Guitar class, created IPlayable (with play() method) and ISellable (with calculateMarkup() method) interfaces.">
+      <created>1516364017030</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516364017030</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="GuitarTest - 2018.01.19 at 12h 07m 17s.xml">
       <configuration name="GuitarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuitarTest_canPlay - 2018.01.19 at 12h 01m 41s.xml">
-      <configuration name="GuitarTest.canPlay" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuitarTest_hasBrand - 2018.01.19 at 11h 39m 30s.xml">
-      <configuration name="GuitarTest.hasBrand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuitarTest_hasBuyPrice - 2018.01.19 at 11h 48m 43s.xml">
-      <configuration name="GuitarTest.hasBuyPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuitarTest_hasColour - 2018.01.19 at 11h 45m 15s.xml">
-      <configuration name="GuitarTest.hasColour" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuitarTest_hasGuitarType - 2018.01.19 at 11h 59m 23s.xml">
-      <configuration name="GuitarTest.hasGuitarType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuitarTest_hasMarkup - 2018.01.19 at 12h 04m 46s.xml">
-      <configuration name="GuitarTest.hasMarkup" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GuitarTest_hasMarkup - 2018.01.19 at 12h 05m 59s.xml">
       <configuration name="GuitarTest.hasMarkup" configurationId="JUnit" />
@@ -812,23 +843,40 @@
     <history-entry file="GuitarTest_hasNumberOfStrings - 2018.01.19 at 12h 11m 56s.xml">
       <configuration name="GuitarTest.hasNumberOfStrings" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GuitarTest_hasSellPrice - 2018.01.19 at 11h 50m 55s.xml">
-      <configuration name="GuitarTest.hasSellPrice" configurationId="JUnit" />
+    <history-entry file="InstrumentTests_in_RaysMusicExchange_test - 2018.01.19 at 12h 36m 01s.xml">
+      <configuration name="InstrumentTests in RaysMusicExchange_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KeysTest_hasBrand - 2018.01.19 at 12h 27m 38s.xml">
+      <configuration name="KeysTest.hasBrand" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KeysTest_hasBuyPrice - 2018.01.19 at 12h 33m 57s.xml">
+      <configuration name="KeysTest.hasBuyPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KeysTest_hasInstrumentType - 2018.01.19 at 12h 26m 15s.xml">
+      <configuration name="KeysTest.hasInstrumentType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KeysTest_hasKeysType - 2018.01.19 at 12h 27m 11s.xml">
+      <configuration name="KeysTest.hasKeysType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KeysTest_hasMarkUp - 2018.01.19 at 12h 35m 51s.xml">
+      <configuration name="KeysTest.hasMarkUp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KeysTest_hasSellPrice - 2018.01.19 at 12h 34m 32s.xml">
+      <configuration name="KeysTest.hasSellPrice" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -856,7 +904,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Guitar class and InstrumentType enum." />
     <MESSAGE value="Added getter methods to Instrument class for brand, buyPrice and sellPrice." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added getter methods to Instrument class for brand, buyPrice and sellPrice." />
+    <MESSAGE value="Added guitar-specific properties to Guitar class, created IPlayable (with play() method) and ISellable (with calculateMarkup() method) interfaces." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added guitar-specific properties to Guitar class, created IPlayable (with play() method) and ISellable (with calculateMarkup() method) interfaces." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -867,14 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/InstrumentType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -903,6 +944,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/GuitarType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/KeysType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/InstrumentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Instrument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-225">
@@ -923,38 +993,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Guitar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        <state relative-caret-position="30">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/GuitarType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Keys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InstrumentTests/GuitarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="135">
           <caret line="51" column="41" lean-forward="false" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -976,6 +1045,30 @@
             <element signature="e#1277#1278#0" expanded="true" />
             <element signature="e#1317#1318#0" expanded="true" />
             <element signature="e#1384#1385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/InstrumentTests/KeysTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="56" lean-forward="false" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
           </folding>
         </state>
       </provider>
