@@ -2,10 +2,10 @@ package Accessories;
 
 public class InstrumentAccessory extends Accessory {
 
-    InstrumentAccessoryType instrumentAccessoryType;
+    private InstrumentAccessoryType instrumentAccessoryType;
 
-    public InstrumentAccessory(AccessoryType accessoryType, InstrumentAccessoryType instrumentAccessoryType, double buyPrice, double sellPrice) {
-        super(accessoryType, buyPrice, sellPrice);
+    public InstrumentAccessory(AccessoryType accessoryType, InstrumentAccessoryType instrumentAccessoryType, String description, double buyPrice, double sellPrice) {
+        super(accessoryType, description, buyPrice, sellPrice);
         this.instrumentAccessoryType = instrumentAccessoryType;
     }
 

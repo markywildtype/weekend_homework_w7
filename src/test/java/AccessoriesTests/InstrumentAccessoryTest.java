@@ -1,4 +1,4 @@
-package AccesoriesTests;
+package AccessoriesTests;
 
 import Accessories.AccessoryType;
 import Accessories.InstrumentAccessory;
@@ -14,7 +14,7 @@ public class InstrumentAccessoryTest {
 
     @Before
     public void before(){
-        instrumentAccessory = new InstrumentAccessory(AccessoryType.INSTRUMENTACCESSORY, InstrumentAccessoryType.CABLES, 5.50, 8.99);
+        instrumentAccessory = new InstrumentAccessory(AccessoryType.INSTRUMENTACCESSORY, InstrumentAccessoryType.CABLES, "Fender 10m Guitar Cable", 5.50, 8.99);
     }
 
     @Test
@@ -25,6 +25,11 @@ public class InstrumentAccessoryTest {
     @Test
     public void hasInstrumentAccessoryType(){
         assertEquals(InstrumentAccessoryType.CABLES, instrumentAccessory.getInstrumentAccessoryType());
+    }
+
+    @Test
+    public void hasDescription(){
+        assertEquals("Fender 10m Guitar Cable", instrumentAccessory.getDescription());
     }
 
     @Test

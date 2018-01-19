@@ -6,7 +6,7 @@ public enum InstrumentAccessoryType {
     STICKS,
     STANDS,
     CABLES,
-    PLECTRUMS,
+    PLECTRUM,
     BOWS
 
 }
