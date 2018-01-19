@@ -4,8 +4,8 @@ public class InstrumentAccessory extends Accessory {
 
     private InstrumentAccessoryType instrumentAccessoryType;
 
-    public InstrumentAccessory(AccessoryType accessoryType, InstrumentAccessoryType instrumentAccessoryType, String description, double buyPrice, double sellPrice) {
-        super(accessoryType, description, buyPrice, sellPrice);
+    public InstrumentAccessory(InstrumentAccessoryType instrumentAccessoryType, String description, double buyPrice, double sellPrice) {
+        super(description, buyPrice, sellPrice);
         this.instrumentAccessoryType = instrumentAccessoryType;
     }
 

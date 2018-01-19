@@ -14,12 +14,7 @@ public class InstrumentAccessoryTest {
 
     @Before
     public void before(){
-        instrumentAccessory = new InstrumentAccessory(AccessoryType.INSTRUMENTACCESSORY, InstrumentAccessoryType.CABLES, "Fender 10m Guitar Cable", 5.50, 8.99);
-    }
-
-    @Test
-    public void hasAccessoryType(){
-        assertEquals(AccessoryType.INSTRUMENTACCESSORY, instrumentAccessory.getAccessoryType());
+        instrumentAccessory = new InstrumentAccessory(InstrumentAccessoryType.CABLES, "Fender 10m Guitar Cable", 5.50, 8.99);
     }
 
     @Test

@@ -4,5 +4,6 @@ public enum AccessoryType {
 
     INSTRUMENTACCESSORY,
     CLEANINGPRODUCT,
-    SHEETMUSIC
+    SHEETMUSIC,
+    OTHER
 }
