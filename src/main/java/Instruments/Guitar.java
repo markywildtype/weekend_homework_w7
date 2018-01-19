@@ -1,8 +1,9 @@
 package Instruments;
 
 import Interfaces.IColour;
+import Interfaces.IPlayable;
 
-public class Guitar extends Instrument implements IColour{
+public class Guitar extends Instrument implements IColour, IPlayable{
 
     private String colour;
     private GuitarType guitarType;

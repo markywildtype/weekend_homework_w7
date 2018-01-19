@@ -3,7 +3,7 @@ package Instruments;
 import Interfaces.IPlayable;
 import Interfaces.ISellable;
 
-public abstract class Instrument implements ISellable, IPlayable{
+public abstract class Instrument implements ISellable{
 
     private InstrumentType instrumentType;
     private String brand;

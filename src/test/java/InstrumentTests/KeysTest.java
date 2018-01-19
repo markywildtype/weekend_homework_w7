@@ -14,7 +14,7 @@ public class KeysTest {
 
     @Before
     public void before(){
-        keys = new Keys(InstrumentType.KEYBOARD, KeysType.PIANO, "Yamaha", 160.00, 219.99);
+        keys = new Keys(InstrumentType.KEYBOARD, KeysType.PIANO, 7, "Yamaha", 160.00, 219.99);
     }
 
     @Test
@@ -25,6 +25,11 @@ public class KeysTest {
     @Test
     public void hasKeysType(){
         assertEquals(KeysType.PIANO, keys.getKeysType());
+    }
+
+    @Test
+    public void hasNumberOfOctaves(){
+        assertEquals(7, keys.getNumberOfOctaves());
     }
 
     @Test
@@ -43,6 +48,11 @@ public class KeysTest {
 
     @Test public void hasMarkUp(){
         assertEquals(59.99, keys.calculateMarkup(), 0.01);
+    }
+
+    @Test
+    public void canPlay(){
+        assertEquals("Plinky plonk!", keys.play());
     }
 
 }
