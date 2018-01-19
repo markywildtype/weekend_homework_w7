@@ -1,11 +1,13 @@
+package Shop;
+
 import Interfaces.ISellable;
 
-public abstract class Items implements ISellable{
+public abstract class SellableItem implements ISellable{
 
     private double buyPrice;
     private double sellPrice;
 
-    public Items(double buyPrice, double sellPrice){
+    public SellableItem(double buyPrice, double sellPrice){
         this.buyPrice = buyPrice;
         this.sellPrice = sellPrice;
     }
