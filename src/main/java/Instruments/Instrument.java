@@ -1,6 +1,5 @@
 package Instruments;
 
-import Interfaces.IPlayable;
 import Interfaces.ISellable;
 
 public abstract class Instrument implements ISellable{
