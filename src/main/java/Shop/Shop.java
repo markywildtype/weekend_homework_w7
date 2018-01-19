@@ -1,5 +1,6 @@
 package Shop;
 
+import Instruments.Instrument;
 import Interfaces.ISellable;
 
 import java.util.ArrayList;
@@ -20,5 +21,13 @@ public class Shop {
 
     public int countInventory() {
         return this.shopInventory.size();
+    }
+
+    public void addToInventory(ISellable sellableItem) {
+        this.shopInventory.add(sellableItem);
+    }
+
+    public void clearInventory() {
+        this.shopInventory.clear();
     }
 }
