@@ -12,9 +12,10 @@ public class DrumsTest {
 
     Drums drums;
 
+
     @Before
     public void before(){
-        drums = new Drums(InstrumentType.PERCUSSION, DrumType.DRUMKIT,"Sonor", 400.00, 599.99);
+        drums = new Drums(InstrumentType.PERCUSSION, DrumType.DRUMKIT,"Birch","Sonor", 400.00, 599.99);
     }
 
     @Test
@@ -25,6 +26,11 @@ public class DrumsTest {
     @Test
     public void hasDrumType(){
         assertEquals(DrumType.DRUMKIT, drums.getDrumType());
+    }
+
+    @Test
+    public void hasWoodType(){
+        assertEquals("Birch", drums.getWoodType());
     }
 
     @Test
