@@ -1,6 +1,9 @@
 package Instruments;
 
-public abstract class Instrument {
+import Interfaces.IPlayable;
+import Interfaces.ISellable;
+
+public abstract class Instrument implements ISellable, IPlayable{
 
     private InstrumentType instrumentType;
     private String brand;
@@ -28,5 +31,10 @@ public abstract class Instrument {
 
     public double getSellPrice() {
         return this.sellPrice;
+    }
+
+    public double calculateMarkup(){
+        double markUp = getSellPrice() - getBuyPrice();
+        return markUp;
     }
 }
