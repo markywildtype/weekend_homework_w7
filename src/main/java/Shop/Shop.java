@@ -30,4 +30,9 @@ public class Shop {
     public void clearInventory() {
         this.shopInventory.clear();
     }
+
+    public ISellable removeFromInventory(ISellable sellableItem) {
+        this.shopInventory.remove(sellableItem);
+        return sellableItem;
+    }
 }

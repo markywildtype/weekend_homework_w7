@@ -60,4 +60,20 @@ public class ShopTest {
         shop.clearInventory();
         assertEquals(0, shop.countInventory());
     }
+
+    @Test
+    public void canRemoveInstrumentFromInventory(){
+        shop.addToInventory(instrument);
+        shop.addToInventory(instrumentAccessory);
+        assertEquals(instrument, shop.removeFromInventory(instrument));
+        assertEquals(1, shop.countInventory());
+    }
+
+    @Test
+    public void canRemoveAccessoryFromInventory(){
+        shop.addToInventory(instrument);
+        shop.addToInventory(instrumentAccessory);
+        assertEquals(instrumentAccessory, shop.removeFromInventory(instrumentAccessory));
+        assertEquals(1, shop.countInventory());
+    }
 }
