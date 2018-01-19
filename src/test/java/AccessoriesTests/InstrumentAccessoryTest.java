@@ -1,6 +1,5 @@
 package AccessoriesTests;
 
-import Accessories.AccessoryType;
 import Accessories.InstrumentAccessory;
 import Accessories.InstrumentAccessoryType;
 import org.junit.Before;

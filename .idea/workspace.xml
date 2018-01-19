@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35fcc5d6-9a6c-4922-82ae-70a640491db9" name="Default" comment="Removed AccessoryType enum and property as unnecessary.">
+    <list default="true" id="35fcc5d6-9a6c-4922-82ae-70a640491db9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Accessories/CleaningProduct.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/AccessoriesTests/CleaningProductTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Accessories/Accessory.java" afterPath="$PROJECT_DIR$/src/main/java/Accessories/Accessory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Accessories/AccessoryType.java" afterPath="$PROJECT_DIR$/src/main/java/Accessories/AccessoryType.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Accessories/InstrumentAccessory.java" afterPath="$PROJECT_DIR$/src/main/java/Accessories/InstrumentAccessory.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Accessories/AccessoryType.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AccessoriesTests/InstrumentAccessoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/AccessoriesTests/InstrumentAccessoryTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Accessory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Accessory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/Accessory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -51,31 +51,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccessoryType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/AccessoryType.java">
+      <file leaf-file-name="CleaningProduct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/CleaningProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="60">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstrumentAccessoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/InstrumentAccessoryTest.java">
+      <file leaf-file-name="CleaningProductTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/CleaningProductTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-                <element signature="e#1035#1036#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstrumentAccessoryTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/InstrumentAccessoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +103,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -419,6 +435,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Accessories/Accessory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Accessories/InstrumentAccessory.java" />
         <option value="$PROJECT_DIR$/src/test/java/AccessoriesTests/InstrumentAccessoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AccessoriesTests/CleaningProductTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Accessories/CleaningProduct.java" />
       </list>
     </option>
   </component>
@@ -845,7 +863,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516372678962</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Removed AccessoryType enum and property as unnecessary.">
+      <created>1516374427153</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516374427153</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1332,6 +1357,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/Accessory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/AccessoryType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1351,31 +1387,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/InstrumentAccessoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/CleaningProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/CleaningProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/Accessory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/InstrumentAccessoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
           </folding>
         </state>
       </provider>
