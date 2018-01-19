@@ -13,11 +13,31 @@ public class GuitarTest {
 
     @Before
     public void before(){
-        guitar = new Guitar(InstrumentType.STRINGED);
+        guitar = new Guitar(InstrumentType.STRINGED, "Hagstrom", "Satin Black", 300.00, 380.99);
     }
 
     @Test
     public void hasType(){
         assertEquals(InstrumentType.STRINGED, guitar.getInstrumentType());
+    }
+
+    @Test
+    public void hasBrand(){
+        assertEquals("Hagstrom", guitar.getBrand());
+    }
+
+    @Test
+    public void hasColour(){
+        assertEquals("Satin Black", guitar.getColour());
+    }
+
+    @Test
+    public void hasBuyPrice(){
+        assertEquals(300.00, guitar.getBuyPrice(), 0.01);
+    }
+
+    @Test
+    public void hasSellPrice(){
+        assertEquals(380.99, guitar.getSellPrice(), 0.01);
     }
 }
