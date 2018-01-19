@@ -19,4 +19,19 @@ public class CleaningProductTest {
     public void hasDescription(){
         assertEquals("Jim Dunlop System 65", cleaningProduct.getDescription());
     }
+
+    @Test
+    public void hasBuyPrice(){
+        assertEquals(20.00, cleaningProduct.getBuyPrice(), 0.01);
+    }
+
+    @Test
+    public void hasSellPrice(){
+        assertEquals(29.99, cleaningProduct.getSellPrice(), 0.01);
+    }
+
+    @Test
+    public void hasMarkUp(){
+        assertEquals(9.99, cleaningProduct.calculateMarkup(), 0.01);
+    }
 }

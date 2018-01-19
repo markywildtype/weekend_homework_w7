@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35fcc5d6-9a6c-4922-82ae-70a640491db9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Accessories/CleaningProduct.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/AccessoriesTests/CleaningProductTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Accessories/SheetMusic.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/AccessoriesTests/OtherTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/AccessoriesTests/SheetMusicTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Accessories/AccessoryType.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AccessoriesTests/InstrumentAccessoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/AccessoriesTests/InstrumentAccessoryTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AccessoriesTests/CleaningProductTest.java" afterPath="$PROJECT_DIR$/src/test/java/AccessoriesTests/CleaningProductTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,15 +38,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstrumentAccessory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/InstrumentAccessory.java">
+      <file leaf-file-name="OtherTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/OtherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-              <folding>
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,8 +51,8 @@
       <file leaf-file-name="CleaningProduct.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/CleaningProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="90">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -64,34 +61,20 @@
       <file leaf-file-name="CleaningProductTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/CleaningProductTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="307">
+              <caret line="34" column="66" lean-forward="false" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
                 <element signature="e#359#360#0" expanded="true" />
                 <element signature="e#404#405#0" expanded="true" />
                 <element signature="e#490#491#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstrumentAccessoryTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/InstrumentAccessoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1041#1042#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -435,8 +418,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Accessories/Accessory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Accessories/InstrumentAccessory.java" />
         <option value="$PROJECT_DIR$/src/test/java/AccessoriesTests/InstrumentAccessoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AccessoriesTests/CleaningProductTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Accessories/CleaningProduct.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AccessoriesTests/CleaningProductTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Accessories/SheetMusic.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AccessoriesTests/SheetMusicTest.java" />
       </list>
     </option>
   </component>
@@ -561,7 +546,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in RaysMusicExchange_test">
+  <component name="RunManager" selected="JUnit.SheetMusicTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -582,27 +567,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="All in RaysMusicExchange_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="RaysMusicExchange_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="InstrumentAccessoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CleaningProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="AccessoriesTests.*" />
@@ -613,7 +578,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="AccessoriesTests" />
-      <option name="MAIN_CLASS_NAME" value="AccessoriesTests.InstrumentAccessoryTest" />
+      <option name="MAIN_CLASS_NAME" value="AccessoriesTests.CleaningProductTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -627,7 +592,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="InstrumentAccessoryTest.hasAccessoryType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SheetMusicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="AccessoriesTests.*" />
@@ -638,9 +603,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="AccessoriesTests" />
-      <option name="MAIN_CLASS_NAME" value="AccessoriesTests.InstrumentAccessoryTest" />
-      <option name="METHOD_NAME" value="hasAccessoryType" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="AccessoriesTests.SheetMusicTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -652,7 +617,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="InstrumentAccessoryTest.hasDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SheetMusicTest.hasDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="AccessoriesTests.*" />
@@ -663,7 +628,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="AccessoriesTests" />
-      <option name="MAIN_CLASS_NAME" value="AccessoriesTests.InstrumentAccessoryTest" />
+      <option name="MAIN_CLASS_NAME" value="AccessoriesTests.SheetMusicTest" />
       <option name="METHOD_NAME" value="hasDescription" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -677,7 +642,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="InstrumentAccessoryTest.hasInstrumentAccessoryType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SheetMusicTest.hasPages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="AccessoriesTests.*" />
@@ -688,8 +653,33 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="AccessoriesTests" />
-      <option name="MAIN_CLASS_NAME" value="AccessoriesTests.InstrumentAccessoryTest" />
-      <option name="METHOD_NAME" value="hasInstrumentAccessoryType" />
+      <option name="MAIN_CLASS_NAME" value="AccessoriesTests.SheetMusicTest" />
+      <option name="METHOD_NAME" value="hasPages" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SheetMusicTest.hasTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="AccessoriesTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RaysMusicExchange_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="AccessoriesTests" />
+      <option name="MAIN_CLASS_NAME" value="AccessoriesTests.SheetMusicTest" />
+      <option name="METHOD_NAME" value="hasTitle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -763,19 +753,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.InstrumentAccessoryTest.hasAccessoryType" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.InstrumentAccessoryTest.hasInstrumentAccessoryType" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.InstrumentAccessoryTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.InstrumentAccessoryTest.hasDescription" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in RaysMusicExchange_test" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CleaningProductTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SheetMusicTest.hasDescription" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SheetMusicTest.hasTitle" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SheetMusicTest.hasPages" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SheetMusicTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in RaysMusicExchange_test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.InstrumentAccessoryTest.hasDescription" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.InstrumentAccessoryTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.InstrumentAccessoryTest.hasInstrumentAccessoryType" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.InstrumentAccessoryTest.hasAccessoryType" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SheetMusicTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SheetMusicTest.hasPages" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SheetMusicTest.hasTitle" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SheetMusicTest.hasDescription" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CleaningProductTest" />
       </list>
     </recent_temporary>
   </component>
@@ -870,7 +860,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516374427153</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Removed AccessoryType enum and property as unnecessary.">
+      <created>1516375214915</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1516375214915</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -880,29 +877,29 @@
     <history-entry file="All_in_RaysMusicExchange_test - 2018.01.19 at 15h 05m 47s.xml">
       <configuration name="All in RaysMusicExchange_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InstrumentAccessoryTest - 2018.01.19 at 14h 26m 59s.xml">
-      <configuration name="InstrumentAccessoryTest" configurationId="JUnit" />
+    <history-entry file="CleaningProductTest - 2018.01.19 at 15h 22m 49s.xml">
+      <configuration name="CleaningProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InstrumentAccessoryTest_hasAccessoryType - 2018.01.19 at 14h 23m 20s.xml">
-      <configuration name="InstrumentAccessoryTest.hasAccessoryType" configurationId="JUnit" />
+    <history-entry file="CleaningProductTest_hasDescription - 2018.01.19 at 15h 21m 06s.xml">
+      <configuration name="CleaningProductTest.hasDescription" configurationId="JUnit" />
     </history-entry>
     <history-entry file="InstrumentAccessoryTest_hasDescription - 2018.01.19 at 14h 32m 52s.xml">
       <configuration name="InstrumentAccessoryTest.hasDescription" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InstrumentAccessoryTest_hasInstrumentAccessoryType - 2018.01.19 at 14h 24m 27s.xml">
-      <configuration name="InstrumentAccessoryTest.hasInstrumentAccessoryType" configurationId="JUnit" />
+    <history-entry file="SheetMusicTest - 2018.01.19 at 15h 32m 36s.xml">
+      <configuration name="SheetMusicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InstrumentAccessoryTest_hasInstrumentAccessoryType - 2018.01.19 at 14h 25m 04s.xml">
-      <configuration name="InstrumentAccessoryTest.hasInstrumentAccessoryType" configurationId="JUnit" />
+    <history-entry file="SheetMusicTest_hasDescription - 2018.01.19 at 15h 28m 51s.xml">
+      <configuration name="SheetMusicTest.hasDescription" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InstrumentTests_in_RaysMusicExchange_test - 2018.01.19 at 13h 38m 18s.xml">
-      <configuration name="InstrumentTests in RaysMusicExchange_test" configurationId="JUnit" />
+    <history-entry file="SheetMusicTest_hasPages - 2018.01.19 at 15h 30m 26s.xml">
+      <configuration name="SheetMusicTest.hasPages" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViolinTest - 2018.01.19 at 13h 59m 08s.xml">
-      <configuration name="ViolinTest" configurationId="JUnit" />
+    <history-entry file="SheetMusicTest_hasTitle - 2018.01.19 at 15h 29m 42s.xml">
+      <configuration name="SheetMusicTest.hasTitle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViolinTest_canPlay - 2018.01.19 at 13h 55m 46s.xml">
-      <configuration name="ViolinTest.canPlay" configurationId="JUnit" />
+    <history-entry file="SheetMusicTest_hasTitle - 2018.01.19 at 15h 29m 51s.xml">
+      <configuration name="SheetMusicTest.hasTitle" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -911,13 +908,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1336,14 +1333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/InstrumentAccessoryType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Shop/SellableItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1357,55 +1346,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/Accessory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/AccessoryType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/InstrumentAccessory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/CleaningProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/CleaningProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1424,6 +1369,107 @@
             <element signature="e#1041#1042#0" expanded="true" />
             <element signature="e#1120#1121#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/CleaningProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="34" column="66" lean-forward="false" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/CleaningProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/InstrumentAccessoryType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/InstrumentAccessory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/SheetMusicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="61" lean-forward="false" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/SheetMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Accessories/Accessory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AccessoriesTests/OtherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
