@@ -2,6 +2,7 @@ package InstrumentTests;
 
 import Instruments.InstrumentType;
 import Instruments.Trumpet;
+import Instruments.TrumpetType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,12 +14,22 @@ public class TrumpetTest {
 
     @Before
     public void before(){
-        trumpet = new Trumpet(InstrumentType.BRASS, "Etude", 160.00, 209.99);
+        trumpet = new Trumpet(InstrumentType.BRASS, TrumpetType.Bb, "Etude", 160.00, 209.99);
     }
 
     @Test
     public void hasInstrumentType(){
         assertEquals(InstrumentType.BRASS, trumpet.getInstrumentType());
+    }
+
+    @Test
+    public void hasTrumpetType(){
+        assertEquals(TrumpetType.Bb, trumpet.getTrumpetType());
+    }
+
+    @Test
+    public void hasNumberOfValves(){
+        assertEquals(3, trumpet.getNumberOfValves());
     }
 
     @Test
