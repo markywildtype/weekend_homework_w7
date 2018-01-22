@@ -4,6 +4,7 @@ import Instruments.Instrument;
 import Interfaces.ISellable;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Shop {
 
@@ -43,5 +44,24 @@ public class Shop {
             totalPotentialProfit += markup;
         }
         return totalPotentialProfit;
+    }
+
+//    public HashMap<String, Integer> listInventory(){
+//        HashMap<String, Integer> list = new HashMap<>();
+//        for(ISellable item : shopInventory){
+//            int counter = 0;
+//            String itemType = item.getClass().toString();
+//            if(!list.containsKey(itemType)){
+//                list.put(itemType, 1);
+//            } else {
+//                counter += 1;
+//                list.put(itemType, counter);
+//            }
+//        }
+//        return list;
+//    }
+
+    public ArrayList<ISellable> getInventory() {
+        return this.shopInventory;
     }
 }
