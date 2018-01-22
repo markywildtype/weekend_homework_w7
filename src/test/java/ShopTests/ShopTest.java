@@ -76,4 +76,11 @@ public class ShopTest {
         assertEquals(instrumentAccessory, shop.removeFromInventory(instrumentAccessory));
         assertEquals(1, shop.countInventory());
     }
+
+    @Test
+    public void canCanCalculateMarkupForAllStock(){
+        shop.addToInventory(instrument);
+        shop.addToInventory(instrumentAccessory);
+        assertEquals(84.48, shop.calculatePotentialProfit(), 0.01);
+    }
 }

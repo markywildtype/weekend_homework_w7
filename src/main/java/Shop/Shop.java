@@ -15,24 +15,33 @@ public class Shop {
         this.shopInventory = new ArrayList<>();
     }
 
-    public String getName() {
+    public String getName(){
         return this.name;
     }
 
-    public int countInventory() {
+    public int countInventory(){
         return this.shopInventory.size();
     }
 
-    public void addToInventory(ISellable sellableItem) {
+    public void addToInventory(ISellable sellableItem){
         this.shopInventory.add(sellableItem);
     }
 
-    public void clearInventory() {
+    public void clearInventory(){
         this.shopInventory.clear();
     }
 
-    public ISellable removeFromInventory(ISellable sellableItem) {
+    public ISellable removeFromInventory(ISellable sellableItem){
         this.shopInventory.remove(sellableItem);
         return sellableItem;
+    }
+
+    public double calculatePotentialProfit(){
+        double totalPotentialProfit = 0;
+        for(ISellable item : shopInventory){
+            double markup = item.calculateMarkup();
+            totalPotentialProfit += markup;
+        }
+        return totalPotentialProfit;
     }
 }
